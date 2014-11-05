@@ -19,7 +19,7 @@ public static void main(String args[])
  System.out.println(kaitou);
  break;
  case 2:
- kaitou = (suuzi1 + suuzi2);
+ kaitou = (suuzi1 - suuzi2);
   System.out.println(kaitou);
  break;
  case 3:
