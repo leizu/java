@@ -1,19 +1,25 @@
+import java.math.*;
+
+
 class kurikaesi2{
 public static void main (String argv[])
 {
-long [] a = new long[3];
+BigInteger [] a = new BigInteger[2];
+int[] c =new int[2];
+
+long b;
  System.out.println("ƒŠƒ…ƒJ”—ñ‚Ì‘æn€‚ğ‹‚ß‚Ü‚·");
         System.out.print("n=");
-        a[0] = new java.util.Scanner(System.in).nextLong();
-a[1] =1;
-a[2] =2;
-System.out.println(a[1]);
+        b = new java.util.Scanner(System.in).nextLong();
 
-while (0<a[0]){
-    System.out.println(a[1]);
-	a[1] = a[1]+a[2];
-	a[2] = a[1]-a[2];
-	a[0] = (a[0]-1);
+a[1].add(c[1]);
+System.out.println(a[1]);
+while (0<b){
+   
+	a[0] = a[0].add(a[1]);
+	a[1] = a[0].subtract(a[1]);
+	System.out.println(a[0]);
+	b = (b-1);
 }  
 }
 }
