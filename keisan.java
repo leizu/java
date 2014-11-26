@@ -2,13 +2,13 @@ class keisan
 {
  public static void main(String argv[])
  {
- double suuzi1;
- double suuzi2;
- double tasi;
- double hiki;
- double kake;
- double wari;
- double amari;
+ int suuzi1;
+ int suuzi2;
+ int tasi;
+ int hiki;
+ int kake;
+ int wari;
+ int amari;
  System.out.print("”š‚P=");
  suuzi1 = new java.util.Scanner(System.in).nextDouble();
  System.out.print("”š‚Q=");
